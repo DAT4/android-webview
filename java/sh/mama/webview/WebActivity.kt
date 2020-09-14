@@ -26,7 +26,7 @@ class WebActivity : AppCompatActivity() {
         searchurl.onSearch {
             val str = searchurl.text.toString()
             val https = """https://""".toRegex()
-            val http = """https://""".toRegex()
+            val http = """http://""".toRegex()
             if (https.containsMatchIn(str)) {
                 browser.loadUrl(str)
                 Toast.makeText(this, "Søger: $str", Toast.LENGTH_SHORT)
