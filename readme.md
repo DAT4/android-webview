@@ -1,6 +1,6 @@
 # Øvelser for at lære at lave android apps (Dag 1)
 
-![gif showing intro](intro.gif)
+![gif showing demo](demo.gif)
 
 I disse øvelser har jeg lavet en app som kan bruges til at browse webbet.
 
