@@ -1,5 +1,7 @@
 # Øvelser for at lære at lave android apps (Dag 1)
 
+![gif showing intro](intro.gif)
+
 I disse øvelser har jeg lavet en app som kan bruges til at browse webbet.
 
 ## Øvelse 4: Lave en hovedmenu til en app
