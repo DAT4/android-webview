@@ -46,7 +46,7 @@ class WebActivity : AppCompatActivity() {
         setOnEditorActionListener { _, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 val imm =
-                    context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+                    context.getSystemService(Context:cINPUT_METHOD_SERVICE) as InputMethodManager
                 imm.hideSoftInputFromWindow(windowToken, 0)
                 func()
             }
